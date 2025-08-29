@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <title>Online Book Store</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Online Book Store</h1>
+        <nav class="navbar">
+            <h1>Online Book Store</h1>
+            <div class="nav-right">
+                <input type="text" id="search" placeholder="Search books...">
+                <span class="cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </span>
+            </div>
+        </nav>
     </header>
     <main>
         <section id="book-list">
